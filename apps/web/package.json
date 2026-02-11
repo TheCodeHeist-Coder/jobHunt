@@ -11,6 +11,7 @@
     "check-types": "next typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
     "@repo/ui": "workspace:*",
     "next": "16.1.5",
     "react": "^19.2.0",
