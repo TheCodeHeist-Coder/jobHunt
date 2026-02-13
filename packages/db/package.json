@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "exports":{
-     ".": "./src/index.ts"
+  "exports": {
+    ".": "./src/index.ts"
   },
   "scripts": {
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --skip-generate"
-
   },
   "keywords": [],
   "author": "",
@@ -24,6 +23,7 @@
     "@prisma/adapter-pg": "^7.4.0",
     "@prisma/client": "^7.4.0",
     "dotenv": "^17.2.4",
-    "pg": "^8.18.0"
+    "pg": "^8.18.0",
+    "typescript": "^5.9.3"
   }
 }
